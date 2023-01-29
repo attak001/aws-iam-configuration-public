@@ -31,6 +31,7 @@ resource "aws_iam_account_password_policy" "passpolicy" {
   allow_users_to_change_password = var.allow_users_to_change_password # Whether to allow users to change their own password Default set to true
   hard_expiry                    = var.hard_expiry                    # Whether users are prevented from setting a new password after their password has expired (i.e., require administrator reset) Default set to false
   max_password_age               = var.max_password_age               # The number of days that an user password is valid. Default set to 35 days
+  password_reuse_prevention      = var.password_reuse_prevention      # The number of previous passwords that users are prevented from reusing
 }
 
 # used to setup an AWS account alternate_contact
