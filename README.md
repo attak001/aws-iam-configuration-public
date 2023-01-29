@@ -2,7 +2,7 @@
 IAM best practises in AWS and the necessary code in terraform 
 
 
-Account id related information
+Setting up the Account id alias 
 
 The AWS account ID is a unique 12-digit number identification and a friendly alias can be used to remember the account id when logging in to AWS
 
@@ -12,8 +12,6 @@ https://123456789012.signin.aws.amazon.com/console  USE  https://myawsaccountsam
 
 
 Setting up password policies for your users
-
-# set password policy related configuration.   
 
 Please refer to https://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_passwords_account-policy.html for more details
 
