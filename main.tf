@@ -15,6 +15,7 @@ module "setpolicies" {
   allow_users_to_change_password = "true"  # Whether to allow users to change their own password Default set to true
   hard_expiry                    = "false" # Whether users are prevented from setting a new password after their password has expired (i.e., require administrator reset) Default set to false
   max_password_age               = "35"    #The number of days that an user password is valid. Default set to 35 days
+  password_reuse_prevention      = "24"    #The number of previous passwords that users are prevented from reusing. Default is set to 24
 
   #settings contact details  # update contact details as necessary
 
