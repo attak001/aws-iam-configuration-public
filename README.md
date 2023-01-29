@@ -31,7 +31,8 @@ Setting up password policies for your users
 *	Set the requirment whether users are prevented from setting a new password after their password has expired  and requires administrator reset. The default in 	the module is set to false
 	
 *	Set the password to expiry after 35 days. The default in the module is set to 35. Range is between 1-1095 days
-
+	
+*	Set the password history to 24 times. The default in the module is set to 24. Range is between 1-24
 
 
 
